@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="do_an.css">
+        <title>Motora</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="headliner">
+            <div class="logo">
+                <img src="images/logo_xe.png" alt="logo_xe">
+            </div>
+            <nav class="thanhcongcu">
+                <div class="menu-container">
+                    <div class="menu-button">☰ Menu</div>
+                    <div class="menu-content">
+                        <a href="#">Trang chủ</a>
+                        <a href="#">Mẫu xe</a>
+                        <a href="#">Khám phá</a>
+                        <a href="#">Liên hệ</a>
+                    </div>
+                </div>
+                <a href="#" >Về chúng tôi</a>
+                <a href="#" >Hệ thống phân phối</a>
+                <div class="thanhtimkiem">
+                    <input type="text" placeholder="Search">
+                    <button>Search</button>
+                </div>
+            </nav>
+        </header>
+    
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images\sliderxe1.png" class="d-block w-100" alt="sliderxe1">
+              </div>
+              <div class="carousel-item">
+                <img src="images\sliderxe2.png" class="d-block w-100" alt="sliderxe2">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+          <section class="sanpham-ban-chay">
+            <h2>Sản phẩm bán chạy</h2>
+            <div class="grid-sanpham">
+                <div class="sanpham">
+                    <img src="D:/HTML/xe1.jpg" alt="Xe 1">
+                    <h3>BMW M3 CS</h3>
+                    <p>Giá: 4.999.000.000 VND</p>
+                </div>
+                <div class="sanpham">
+                    <img src="D:/HTML/xe2.jpg" alt="Xe 2">
+                    <h3>PORSHCHE Panamera</h3>
+                    <p>Giá: 7.299.000.000 VND</p>
+                </div>
+                <div class="sanpham">
+                    <img src="D:/HTML/xe3.jpg" alt="Xe 3">
+                    <h3>Audi R8 </h3>
+                    <p>Giá: 3.951.000.000 VND</p>
+                </div>
+            </div>
+            <a href="bmw.html">BMW</a>
+            <br>
+            <a href="porsche.html">Mercedes</a>
+        </section>
+        <button onclick="document.getElementById('sound').play()">BÔ XĂNG LỬA</button>
+
+        <audio id="sound">
+          <source src="C:\Users\NoutSpace\Downloads\6519308646979.mp3" type="audio/mp3">
+          Trình duyệt của bạn không hỗ trợ audio.
+        </audio>
+
+        <section class="gioi-thieu-hang-xe">
+            <h2 class="section-title">Giới thiệu các thương hiệu xe hàng đầu</h2>
+            
+            <!-- BMW -->
+            <div class="hang-xe-container">
+                <div class="hang-xe-image">
+                    <img src="images/sliderxe1.png" alt="BMW Brand">
+                </div>
+                <div class="hang-xe-content">
+                    <h3>BMW - Bayerische Motoren Werke</h3>
+                    <p>BMW là thương hiệu xe sang đến từ Đức với lịch sử hơn 100 năm phát triển, nổi tiếng với khẩu hiệu "The Ultimate Driving Machine". Những chiếc xe BMW luôn mang đến trải nghiệm lái thú vị với thiết kế thể thao, động cơ mạnh mẽ và công nghệ tiên tiến. Dòng xe M Performance của BMW được đánh giá cao về khả năng vận hành và cảm giác lái phấn khích.</p>
+                    <p>Một số dòng xe nổi bật: BMW 3 Series, BMW 5 Series, BMW X5, BMW M3, BMW i8...</p>
+                    <a href="bmw-detail.html" class="read-more-btn">Xem thêm về BMW</a>
+                </div>
+            </div>
+        
+            <!-- Mercedes -->
+            <div class="hang-xe-container reverse">
+                <div class="hang-xe-content">
+                    <h3>Mercedes-Benz - Das Beste oder nichts</h3>
+                    <p>Mercedes-Benz là biểu tượng của sự sang trọng và đẳng cấp đến từ Đức với câu slogan "The best or nothing". Với lịch sử hơn 135 năm, Mercedes-Benz luôn đi đầu trong việc phát triển công nghệ an toàn và tiện nghi. Từ những chiếc sedan sang trọng đến SUV đa dụng, Mercedes-Benz mang đến sự hoàn hảo trong từng chi tiết.</p>
+                    <p>Một số dòng xe nổi bật: Mercedes-Benz S-Class, Mercedes-Benz E-Class, Mercedes-Benz GLE, Mercedes-AMG GT, Mercedes-Benz EQS...</p>
+                    <a href="mercedes-detail.html" class="read-more-btn">Xem thêm về Mercedes-Benz</a>
+                </div>
+                <div class="hang-xe-image">
+                    <img src="D:/HTML/mercedes-brand.jpg" alt="Mercedes-Benz Brand">
+                </div>
+            </div>
+        
+            <!-- Porsche -->
+            <div class="hang-xe-container">
+                <div class="hang-xe-image">
+                    <img src="D:/HTML/porsche-brand.jpg" alt="Porsche Brand">
+                </div>
+                <div class="hang-xe-content">
+                    <h3>Porsche - There Is No Substitute</h3>
+                    <p>Porsche là thương hiệu xe thể thao hàng đầu thế giới đến từ Đức, được thành lập vào năm 1931. Porsche nổi tiếng với triết lý thiết kế độc đáo và khả năng vận hành xuất sắc. Dòng xe 911 huyền thoại của hãng là biểu tượng của sự hoàn hảo trong thiết kế xe thể thao và đã tồn tại qua nhiều thế hệ với tinh thần nguyên bản.</p>
+                    <p>Một số dòng xe nổi bật: Porsche 911, Porsche Cayenne, Porsche Taycan, Porsche Panamera, Porsche Macan...</p>
+                    <a href="porsche-detail.html" class="read-more-btn">Xem thêm về Porsche</a>
+                </div>
+            </div>
+        
+            <!-- Audi -->
+            <div class="hang-xe-container reverse">
+                <div class="hang-xe-content">
+                    <h3>Audi - Vorsprung durch Technik</h3>
+                    <p>Audi là thương hiệu xe sang của Đức với câu slogan "Vorsprung durch Technik" (Tiến bộ thông qua công nghệ). Audi nổi tiếng với hệ thống dẫn động quattro và thiết kế hiện đại, tinh tế. Các mẫu xe Audi kết hợp giữa công nghệ tiên tiến, thiết kế sang trọng và khả năng vận hành mạnh mẽ, tạo nên trải nghiệm lái xe đẳng cấp.</p>
+                    <p>Một số dòng xe nổi bật: Audi A4, Audi A6, Audi Q5, Audi Q7, Audi R8, Audi e-tron...</p>
+                    <a href="audi-detail.html" class="read-more-btn">Xem thêm về Audi</a>
+                </div>
+                <div class="hang-xe-image">
+                    <img src="D:/HTML/audi-brand.jpg" alt="Audi Brand">
+                </div>
+            </div>
+            
+    </body>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Motora</h3>
+                <p>Đại lý phân phối xe hơi cao cấp hàng đầu Việt Nam</p>
+                <p>Hotline: 1900 xxxx</p>
+                <p>Email: info@motora.vn</p>
+            </div>
+            <div class="footer-column">
+                <h3>Kết nối với chúng tôi</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="D:/HTML/facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="D:/HTML/instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="D:/HTML/youtube-icon.png" alt="Youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Motora. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+</html>
+
+
